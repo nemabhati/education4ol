@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: rgb(189, 219, 219);
+    
+    
+    background-size: cover;
+    height:auto;
+    width: 100%;
+
+}
+
+.header_image{
+    height:180px;
+    width:100%;
+    top:0;
+    }
+
+.card-container {
+    background-color: #ffffff;
+    /* margin:10px; */
+    padding-top: 60px;
+    border-left: 5px solid rgb(12, 125, 140);
+    border-radius: 10px;
+    margin-block-end: 50px;
+    
+}
+.company-heading-container{
+    display: flex;
+    padding: 20px;
+   
+    padding-left: 25px;
+    
+}
+/* .image{
+     height: auto;
+    width: 80px;
+     position: absolute; 
+   
+
+
+} */
+ .image{
+     height: auto;
+    width: 80px;
+    position: absolute;
+    top: -20;
+    left: 10%;
+    }
+.company-heading{
+    color:rgb(21, 137, 141);
+    
+   
+    padding:5px;
+   
+
+    font-size:20px;
+
+}
+.new{
+    background-color: lightseagreen;
+    border-radius: 25px;
+    padding:5px; 
+    color:#ffffff;
+    font-weight: 200;
+    font-family: sans-serif;
+    font-size: small;
+
+}
+.featured{
+     background-color: rgb(39, 42, 42);
+    border-radius: 25px;
+    padding:5px;
+    color:#ffffff;
+    font-size:5px;
+}
+#parent {
+  position: relative;
+  height: 250px;
+  width: 300px;
+}
+
+
+
+.card-small-heading {
+    color: #959ead;
+    font-size: 20px;
+    font-family: "Roboto";
+    
+}
+
+.card-heading {
+    color: #183b56;
+    font-size: 26px;
+    font-family: "Roboto";
+
+}
+.list{
+    display: flex;
+    margin:10px;
+    padding-left: 10px;
+    font-size:10px;
+}
+.btn{
+    background-color: rgb(196, 239, 237);
+    margin: 3px;
+    color:rgb(14, 98, 137);
+}
+/* @media screen and (max-width:600px) {
+    .image{
+     height: auto;
+    width: 80px;
+    position: absolute;
+    top: -20;
+    left: 10%;
+    }
+} */
